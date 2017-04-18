@@ -1,0 +1,148 @@
+html {
+	height: 100%;
+	font-family: "Calibri";
+	font-size: 14px;
+	color: #0000FF;
+	background: #FFFF33;
+}
+header {
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+img {
+	border: none;  /*Speciaal voor IE*/
+}
+#logo {
+	float: left;
+	display: inline;
+	width: 8%;
+	width: 92px;
+	height: 67px;
+}
+#titel {
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	float: left;
+}
+#inlog {
+	float: right;
+	display: inline;
+	width: 20%;
+}
+h3 {
+	text-align: center;
+	margin: 0px;
+}
+label {
+	float: left;
+	width: 100px;
+}
+#wrapper {
+	display: block;
+	float: right;
+	height: 90%;
+	width: 100%;
+}
+nav {
+	float: left;
+	width: 10%;
+	padding: 10px;
+}
+nav a {
+	display: block;
+	margin-left: 10px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.huidig {
+	color: #00FF00;
+}
+.uitvoorraad {
+	color: #f00;
+	font-size: 150%;
+}
+.invoorraad {
+	color: #00f;
+	font-size: 150%;
+}
+
+article {
+	display: inline;
+	padding: 10px;
+	float: right;
+	width: 85%;
+	height: 650px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-top-left-radius: 15px;
+}
+article img {
+	float: right;
+	display: inline;
+}
+footer {
+	clear: both;
+	width: 100%;
+	color: lightgray;
+	text-align: center;
+	border-top: 1px solid lightgray;
+}
+
+fieldset {
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse:collapse;
+}
+thead {
+    font-weight:bold;
+}
+td {
+    border: 1px solid lightgray;
+}
+th {
+    border: 1px solid lightgray;
+}
+td.prijs {
+    text-align: right;
+}
+
+form {
+    width: 200px;
+}
+form label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 3px;
+}
+
+form input {
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+#inlog input {
+	float: right;
+	width: 110px;
+	display: inline;
+}
+#inlog label {
+	display: inline;
+	float: left;
+	width: 100px;
+}
+#inlog form {
+	width: 100%;
+}
+
+.error {
+    color: #FF0000;
+}
